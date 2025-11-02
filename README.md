@@ -10,8 +10,8 @@ Var
     found : boolean       // Flag to check if element is found in the other array
 
 Begin
-    sum ← 0               // Initialize sum to 0
 
+    sum ← 0               // Initialize sum to 0
     // Loop through each element in array A
     For i ← 1 to n do
         found ← false     // Reset flag for each element
@@ -46,6 +46,7 @@ Procedure DotProduct(v1[1..k], v2[1..k], ps : out integer)
 Var
     i : integer           // Loop counter
 Begin
+
     ps ← 0                // Initialize dot product result
     // Loop through each component of the vectors
     For i ← 1 to k do
